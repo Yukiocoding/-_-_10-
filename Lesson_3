@@ -1,0 +1,5 @@
+credits = float(input("Введите количество кредитов:"))
+usd_amount = credits * 1.25
+eur_amount = credits * 1.15
+print(f"{credits} кредитов = {usd_amount} $")
+print(f"{credits} кредитов = {eur_amount} €")
