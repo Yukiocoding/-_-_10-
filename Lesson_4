@@ -1,0 +1,7 @@
+seconds_total = int(input("Введите количество секунд с момента старта:"))
+hours = seconds_total // 3600
+remaining_after_hours = seconds_total % 3600
+minutes = remaining_after_hours // 60
+seconds = remaining_after_hours % 60
+print(f"Время с момента старта: {seconds_total} секунд.")
+print(f"Форматированное время: {hours} ч {minutes} мин {seconds} сек.")
